@@ -1,0 +1,12 @@
+• A reflection where you consider whether testing or inspection identified more bugs in this case.
+State why you think one way worked better than the other. How could you improve the
+technique that worked less well?
+
+I would definitely agree that testing allowed for identification of more bugs, starting from user experience till logical flaws and data overflow. I tested for various inputs ranging from different languages (to check for non-ascii characters), NULL values, overflow of data (which initially was limited to 20 characters). This allowed me to take into account errors which can only be caught by testing extremities and may be missed while conducting inspection. I believe I could have improved my use of the inspection technique by taking a closer look at the code and paying more attention to data limits that could cause an overflow, additionally I could have also accounted for better UX and output representation, again only if I had kept a better eye. In the end, I can definitely improve my inspection skills but I do think to debug this piece of code it was needed to rely more on the testing technique.
+
+
+
+• Did you find it difficult to find the bugs in this assignment? If not, what helped find them
+quickly? If you did find it difficult, what made finding the bugs so difficult?
+
+I would say initially I found it really difficult to find any bugs but as soon as I found my first bug, it got easier and eventually I found the other bugs relatively early and with less strain. I believe developing the right thinking and looking with a sharp eye helped me find other bugs quickly, even though initially I had hard luck but it did help shape my mind to develop future test cases based on my understanding of what works and what doesn't. I will also like to add, the majority of the bugs in the code I believe would never be experienced by the end-user, Thus it was a bit tricky to find some of them. Nevertheless, It is good practice to emit as many bugs as possible. 

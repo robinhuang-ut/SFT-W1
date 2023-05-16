@@ -1,0 +1,10 @@
+'This is' does not start with ''
+'This is' does not end with ''
+
+'This is a very long string that is longer than twenty characters.' does start with 'This is a very long string'
+'This is a very long string that is longer than twenty characters.' does end with 'longer than twenty characters.'
+
+Word is the 'Word' itself.
+
+'BetterUX  ' does not start with '  Bet'
+'BetterUX  ' does end with 'UX  '
